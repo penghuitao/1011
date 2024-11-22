@@ -14,3 +14,10 @@ rdiscount:
     extensions: ['smart']
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-remote-theme
